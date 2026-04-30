@@ -1,5 +1,5 @@
 # CIFAR-10 Image Classification: Custom CNN vs. VGG16 Transfer Learning
-** An interactive web application comparing a custom-built CNN and VGG16 Transfer Learning for multi-class image classification on the CIFAR-10 dataset.[cite: 1]
+* An interactive web application comparing a custom-built CNN and VGG16 Transfer Learning for multi-class image classification on the CIFAR-10 dataset.[cite: 1]
 
 ## Project Overview
 This personal project focuses on solving the multi-class image classification problem using the **CIFAR-10 dataset**. The objective was to compare two distinct deep learning strategies:
