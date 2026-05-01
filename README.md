@@ -24,7 +24,7 @@ CIFAR10-Image-Classification-CNN-vs-VGG16/
 ---
 ### Insights & Observations
 Based on the experimental results:
-*   **Performance Gap:** The **VGG16 model (~83.3% accuracy)** significantly outperformed the **Custom CNN (~78.8% accuracy)**. This highlights the power of pre-trained spatial hierarchies in transfer learning.
+*   **Performance Gap:** The **VGG16 model (~82.4% accuracy)** significantly outperformed the **Custom CNN (~76% accuracy)**. This highlights the power of pre-trained spatial hierarchies in transfer learning.
 *   **Training Stability:** The VGG16 model showed more stable validation loss curves, whereas the Custom CNN exhibited higher fluctuations, indicating it was more sensitive to hyperparameter changes.
 *   **Data Augmentation:** Implementing `ImageDataGenerator` for rotation and flipping was critical in reducing overfitting for the Custom CNN, allowing it to reach a respectable accuracy despite having fewer parameters than VGG16.
 
